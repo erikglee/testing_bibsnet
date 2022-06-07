@@ -1,4 +1,4 @@
-RG FROM_IMAGE_NAME=nvcr.io/nvidia/pytorch:21.11-py3
+ARG FROM_IMAGE_NAME=nvcr.io/nvidia/pytorch:21.11-py3
 FROM ${FROM_IMAGE_NAME} 
 
 ENV nnUNet_raw_data_base="/opt/nnUNet/nnUNet_raw_data_base/"
